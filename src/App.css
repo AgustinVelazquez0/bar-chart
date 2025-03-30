@@ -42,3 +42,18 @@ h1 {
 .bar:hover {
   fill: orange;
 }
+
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  .App {
+    margin: 20px;
+    width: 100%;
+  }
+
+  svg {
+    width: 100%;
+  }
+}
